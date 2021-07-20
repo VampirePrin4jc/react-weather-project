@@ -5,12 +5,18 @@ export default function Weather() {
   return (
     <div className="Weather">
       <form>
-        <input
-          type="search"
-          placeholder="Enter a City"
-          className="form-control"
-        />
-        <input type="submit" value="Search" className="btn btn-primary" />
+        <div classname="row">
+          <div classname="col-9">
+            <input
+              type="search"
+              placeholder="Enter a City"
+              className="form-control"
+            />
+          </div>
+          <div classname="col-3">
+            <input type="submit" value="Search" className="btn btn-primary" />
+          </div>
+        </div>
       </form>
       <h1>Tyler</h1>
       <ul>
@@ -20,8 +26,10 @@ export default function Weather() {
       <div className="row">
         <div className="col-6">
           <img
-            src="https://www.ecosia.org/images/?q=rain%20weather%20icon#id=6979D3600D5AA2FD3F9C2C5CF5DB23270FA55F57"
+            src="https://tse1.mm.bing.net/th?id=OIP.jWV25ot__Ge1q61YnCq2jAHaHa&pid=Api"
             alt="Rain"
+            width="30"
+            height="30"
           />
           15°C
         </div>
