@@ -11,27 +11,40 @@ export default function Weather() {
               type="search"
               placeholder="Enter a City"
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div classname="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
-      <h1>Tyler</h1>
-      <ul>
-        <li>Monday 11:00pm</li>
-        <li>Rain</li>
-      </ul>
-      <div className="row">
+      <div>
+        <h1>Tyler</h1>
+        <ul>
+          <li>Monday 11:00pm</li>
+          <li>Rain</li>
+        </ul>
+      </div>
+      <div className="row mt-3">
         <div className="col-6">
-          <img
-            src="https://tse1.mm.bing.net/th?id=OIP.jWV25ot__Ge1q61YnCq2jAHaHa&pid=Api"
-            alt="Rain"
-            width="30"
-            height="30"
-          />
-          15°C
+          <div className="clearfix">
+            <img
+              src="https://tse1.mm.bing.net/th?id=OIP.jWV25ot__Ge1q61YnCq2jAHaHa&pid=Api"
+              alt="Rain"
+              width="60"
+              height="60"
+              className="float-left"
+            />
+            <div className="float-left">
+              <span className="temperature">15</span>
+              <span className="unit">°C</span>
+            </div>
+          </div>
         </div>
         <div classname="col-6">
           <ul>
