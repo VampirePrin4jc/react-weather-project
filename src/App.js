@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Weather App</h1>
-        <Weather />
+        <Weather defaultCity="Tyler" />
         <footer>
           This project was created by Katie Lotzer and is open-sourced on{" "}
           <a
@@ -18,6 +18,7 @@ export default function App() {
           >
             Github
           </a>
+          <a href="https://icons8.com/icon/655/rain">Rain icon by Icons8</a>
         </footer>
       </div>
     </div>
