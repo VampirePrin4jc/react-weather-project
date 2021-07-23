@@ -14,11 +14,13 @@ export default function App() {
           <a
             href="https://github.com/VampirePrin4jc/react-weather-project"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Github
           </a>
-          <a href="https://icons8.com/icon/655/rain">Rain icon by Icons8</a>
+          <div>
+            <a href="https://icons8.com/icon/655/rain">Rain icon by Icons8</a>
+          </div>
         </footer>
       </div>
     </div>
